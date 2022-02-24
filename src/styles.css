@@ -52,9 +52,10 @@ body {
   background: var(--color-background);
   user-select: none;
   overflow-x: hidden;
+  color: var(--color-dark);
 }
 
-.container {
+/* .container {
   display: grid;
   width: 96%;
   margin: 0 auto;
@@ -108,7 +109,7 @@ p {
 b{
   color: var(--color-dark);
 }
-
+*/
 .primary {
   color: var(--color-primary);
 }
@@ -120,4 +121,17 @@ b{
 }
 .warning {
   color: var(--color-warning);
+}
+
+.bg-primary {
+  background: var(--color-primary);
+}
+.bg-danger {
+  background: var(--color-danger);
+}
+.bg-success {
+  background: var(--color-success);
+}
+.bg-warning {
+  background: var(--color-warning);
 }
